@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+* {
+  transition: all 250ms linear;
+}
+
+body {
+  background: hsl(225, 100%, 94%) url('./images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  margin: 1rem;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  border-radius: 50px;
+  max-width: 720px;
+}
+
+.illustrationImg {
+  border-radius: 50px 50px 0 0;
+}
+
+.annualContainer {
+  background: hsl(225, 100%, 98%);
+}
+
+.annualLink {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+}
+
+.annualLink:hover,
+.annualLink:active {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%) !important;
+  opacity: 0.7;
+}
+
+.proceedBtn {
+  background-color: hsl(245, 75%, 52%) !important;
+  box-shadow: 7px 20px 10px 1px hsl(225, 100%, 94%);
+}
+
+.proceedBtn:hover {
+  opacity: 0.7;
+}
+
+.proceedBtn:active {
+  background-color: hsl(245, 75%, 52%) !important;
+}
+
+.cancelBtn {
+  color: grey;
+}
+
+/* .btn:active {
+  border-color: transparent !important;
+} */
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: hsl(245, 75%, 52%);
+}
+
+@media (max-width: 720px) {
+  body {
+    background: hsl(225, 100%, 94%) url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw;  
+  }
+}
